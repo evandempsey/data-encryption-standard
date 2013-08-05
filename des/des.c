@@ -552,8 +552,8 @@ des_block_t get_passphrase()
     char *endptr;
 
     printf("Enter passphrase: ");
-    fgets(buffer, sizeof(buffer), stdin);
-    buffer[strlen(buffer)-1] = '\0';
+    char* pass_string = fgets(buffer, sizeof(buffer), stdin);
+    buffer[strlen(pass_string)-1] = '\0';
 
     if (strlen(buffer) != 16) {
         print_help();

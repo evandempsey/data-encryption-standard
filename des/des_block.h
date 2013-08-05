@@ -1,3 +1,9 @@
+/*
+ * des.c
+ * 05/Aug/2013
+ * Author: Evan Dempsey <evandempsey@gmail.com>
+ */
+
 #ifndef DES_BLOCK_H_INCLUDED
 #define DES_BLOCK_H_INCLUDED
 
