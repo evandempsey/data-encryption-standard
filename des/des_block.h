@@ -1,6 +1,8 @@
 #ifndef DES_BLOCK_H_INCLUDED
 #define DES_BLOCK_H_INCLUDED
 
+#include <stdint.h>
+
 #define KEYLENGTH 64
 #define BLOCKLENGTH 64
 #define PC1LENGTH 56
