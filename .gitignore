@@ -20,4 +20,4 @@ Release/
 Debug/
 .cproject
 .project
-
+*.orig

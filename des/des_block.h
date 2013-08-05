@@ -1,5 +1,5 @@
 /*
- * des.c
+ * des_block.h
  * 05/Aug/2013
  * Author: Evan Dempsey <evandempsey@gmail.com>
  */
